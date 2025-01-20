@@ -1,0 +1,11 @@
+### Get All Tasks
+GET http://localhost:8080/tasks
+
+### Create a New Task
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn Spring Boot",
+  "description": "Understand the basics of Spring Boot."
+}
